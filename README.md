@@ -38,40 +38,4 @@ Python 3.8 or higher
 
 A Google API key for Gemini Pro (follow Google's documentation to get your API key).
 
-Installation
-Clone the repository:
-
-bash
-Copy
-git clone https://github.com/yourusername/ATSResumeOptimizer_LLM_Project.git
-cd ATSResumeOptimizer_LLM_Project
-Install the required dependencies:
-
-bash
-Copy
-pip install -r requirements.txt
-Set up your Google API key:
-
-Create a .env file in the project root directory.
-
-Add your Google API key to the .env file:
-
-plaintext
-Copy
-GOOGLE_API_KEY=your_api_key_here
-Running the App
-Start the Streamlit app:
-
-bash
-Copy
-streamlit run app.py
-Open your browser and navigate to the URL provided in the terminal (usually http://localhost:8501).
-
-Use the app:
-
-Paste the job description in the text area.
-
-Upload your resume in PDF format.
-
-Click the "Analyze" button to get insights.
 
